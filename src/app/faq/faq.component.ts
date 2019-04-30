@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent implements OnInit {
-
+  date = new Date();
+  thisYear = this.date.getFullYear();
   constructor() { }
 
   ngOnInit() {
