@@ -27,8 +27,8 @@ h2 {
     font-size: 1.5em;
 }
 .logo {
-    height: 115px;
-    width: 150px;
+    height: 125px;
+    width: 160px;
     filter: brightness(100%);
 }
 .nav {
@@ -80,7 +80,7 @@ html{
     margin-right: 10%;
 }
 .contactUsContent {
-    margin-top: 4em;
+    margin-top: 12em;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -103,9 +103,12 @@ html{
 @media only screen and (max-width: 600px) {
     .photoBanner {
         visibility: hidden;
+        height: 0%;
+        display: none;
     }
     .photoWrapper {
         visibility: hidden;
+        display: none;
     }
     .mainPhoto {
         visibility: hidden;
@@ -122,7 +125,7 @@ html{
         margin-top: 2em;
     }
     .contactUsContent {
-        margin: 3% 10% 70% 10%;
+        margin: 0% 10% 70% 10%;
         text-align: center;
     }
     .footer {
@@ -140,7 +143,7 @@ html{
 .photoBanner {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: block;
     left: 0;
     top: 0;
 }
@@ -148,14 +151,13 @@ html{
     padding: 0 !important;
     visibility: visible !important;
     border: 0 !important;
-    z-index: 1;
 }
 .mainPhoto {
     margin: 0px;
-    margin-top: -2em;
+    margin-top: -3em;
     z-index: auto;
     width: 100%;
-    height: 66%;
+    height: 100%;
     padding: 0px;
     border-width: 0px;
     border-radius: 0px;
